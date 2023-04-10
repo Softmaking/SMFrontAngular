@@ -29,14 +29,14 @@ export class HomeComponent implements OnInit{
       name: "JEIT",
       description: "Negocio de venta de condimentos",
       url_logo: "/assets/img/clients/jeit-logo.png",
-      url_site: "https://condimentosjeit.cl/",
+      url_site: "#",
     },
     {
       id: 4,
-      name: "Red Cruz del Mar",
-      description: "Empresa de servicios de ambulancia",
+      name: "Colegio robles",
+      description: "Corporación educacional colegio robles",
       url_logo: "/assets/img/clients/logo-colegio-robles-logo.png",
-      url_site: "https://www.redcruzdelmar.cl",
+      url_site: "https://www.colegiorobles.cl",
     },
     {
       id: 5,
