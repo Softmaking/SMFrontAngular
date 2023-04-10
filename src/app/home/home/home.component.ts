@@ -118,7 +118,7 @@ export class HomeComponent implements OnInit{
         trigger: "#rrss h1",
         toggleActions: "play none resume reset",
       },
-      y: "+=50", //cambiar a 100
+      y: "+=80", //cambiar a 100
       opacity: 0,
       duration: 1,
       stagger: 0.2,
