@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class LoginComponent {
 
+  menuActivo = false;
+
+  toggleMenu() {
+    this.menuActivo = !this.menuActivo;
+  }
+
 }

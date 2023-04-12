@@ -1,0 +1,26 @@
+.menu-activo {
+    display: block;
+}
+
+.title {
+	margin-bottom: 0.75rem;
+	background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+	--tw-gradient-from: #4299E1;
+	--tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(66, 153, 225, 0));
+	--tw-gradient-to: #2B6CB0;
+	-webkit-background-clip: text;
+	        background-clip: text;
+	padding-bottom: 0.75rem;
+	text-align: center;
+	font-size: 1.875rem;
+	line-height: 2.25rem;
+	font-weight: 700;
+	color: transparent;
+}
+@media (min-width: 768px) {
+
+	.title {
+		font-size: 3rem;
+		line-height: 1;
+	}
+}
